@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Mipo - Mileage and Point Navigator Chrome Extension",
+    "description": "Gives you a hint when your shopping site offers extra mileage or points when visited from somewhere else",
+    "version": "0.1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "background": {
+        "persistent": false,
+        "page": "background.html"
+    },
+
+    "permissions": [
+        "webNavigation",
+        "alarms",
+        "storage",
+        "tabs"
+    ]
+}
+
